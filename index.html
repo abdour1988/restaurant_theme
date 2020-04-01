@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <head>
+      <title>web site</title>
+	  <meta charset="UTF-8"/> 
+	  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="style.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed">
+	  <link rel="stylesheet" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <![endif]-->
+	  <style>
+	
+	  </style>
+   </head>
+   <body>
+     <div class="full-container">
+	    <span class="fa fa-remove text-info"></span>
+	    <div class="input-group search">
+		  <input type="text" class="form-control">
+		  <div class="input-group-append">
+		     <button type="button" class="btn btn-info">Go</button>
+		  </div>
+		</div>
+	 </div>
+	 <!-- the container for navbar and carousel-->
+     <div class="container p-5 bg-info w-75" style="min-height: 600px;">
+	 <span class="fa fa-search text-primary shadow"></span>
+      <div class="row shadow">
+	     <div class="col-md-6 bg-white second">
+		    <!-- the navbar-->
+	        <nav class="navbar navbar-expand-sm bg-white navbar-light">
+		       <a href="#" class="navbar-brand font-weight-bold"><span class="text-danger">My</span><span class="text-primary">logo</span></a>
+			   <a href="#menu" class="navbar-toggler" data-toggle="collapse">
+			      <span class="navbar-toggler-icon"></span>
+			   </a>
+			   <div id="menu" class="collapse navbar-collapse">
+		          <ul class="navbar-nav">
+			         <li class="nav-item"><a href="#" class="nav-link active">home</a></li>
+			         <li class="nav-item"><a href="#" class="nav-link">gallery</a></li>
+			      </ul>
+			   </div>
+		    </nav>
+			<!-- the left slide container -->
+			<div class="carousel slide" data-ride="carousel" id="second">
+               <div class="carousel-inner">
+	               <div class="carousel-item my-5 ml-3 p-4 active">
+	                   <h2><strong>Find</strong> <span class="text-danger">the hotest dishes</span></h2>
+	                   <p>discover our best foods</p>
+		               <p>you never eat before</p>
+	               </div>
+	               <div class="carousel-item my-5 ml-3  p-4">
+	                    <h2><strong>Select</strong> <span class="text-success">your favorite</span></h2>
+	                    <p>find your favorite food</p>
+		                <p>we provide very amazing foods</p>
+	               </div>
+	               <div class="carousel-item my-5 ml-3 p-4">
+	                    <h2><strong>Live</strong> <span class="text-info">the best moments</span></h2>
+	                    <p>you will enjoy our food</p>
+		                <p>you're welcome</p>
+	               </div>
+	       
+               </div>
+				
+            </div>
+			<a href="#second" class="bg-info text-white left" data-slide="prev"><span class="fa fa-angle-left font-weight-bold"></span></a>
+			<ul class="nav flex-column ml-3">
+			  <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-instagram" style="color: #DD2A7B;"></i></a></li>
+			    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-facebook"></i></a></li>
+			  <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a></li>
+		   </ul>
+		 </div>
+		 <!-- the right slide container -->
+		 <div class="col-md-6 carousel slide" data-ride="carousel" id="slide">
+		    <ul class="carousel-indicators">
+			   <li data-slide-to="0" class="active" data-target="#slide"></li>
+			   <li data-slide-to="1" data-target="#slide"></li>
+			   <li data-slide-to="2" data-target="#slide"></li>
+			</ul>
+			<div class="carousel-inner">
+			   <div class="carousel-item active">
+			      <img src="images/rest10.jpg" class="img-fluid">
+			   </div>
+			   <div class="carousel-item">
+			      <img src="images/rest6.jpg" class="img-fluid">
+			   </div>
+			   <div class="carousel-item">
+			      <img src="images/rest12.jpg" class="img-fluid">
+			   </div>
+			</div>
+			<a href="#slide" class="bg-white text-info right" data-slide="next"><span class="fa fa-angle-right font-weight-bold"></span></a>
+		 </div>
+	  </div>
+	 </div>
+	 <!-- the food continer-->
+	 <div class="container w-75 bg-white p-5">
+	      <div class="text-center p-5">
+	         <h1 class="text-capitalize text-dark">Find your plate</h1>
+		  </div>
+	      <div class="row item-container pb-3">
+		     <div class="col-md-4 item text-center p-5">
+			    <h5>Green salad</h5>
+				<img src="images/rest5.jpg" class="img-fluid" style="width: 100%;height: auto;">
+				<p class="p-2">green salad and lorum ipsum green salad
+				lorum ipsum lorum igreen salad</p>
+			 </div>
+			 <div class="col-md-4 item text-center py-1">
+			    <h5>Sea foods</h5>
+				<img src="images/rest3.jpg" class="img-fluid" style="width: 100%;height: auto;">
+				<p class="p-2">sea food and  lorum ipsum sea food and
+				sea food and ipsum lorum ipsum</p>
+			 </div>
+			 <div class="col-md-4 item text-center p-5">
+			    <h5>Cheese salad</h5>
+				<img src="images/rest8.jpg" class="img-fluid" style="width: 100%;height: auto;">
+				<p class="p-2">cheese salad  and ipsum lorum ipsum
+				lorum ipsum lorum cheese salad lorum ipsum green salad</p>
+			 </div>
+		  </div>
+	 </div>
+	 <!-- the service section --> 
+	 <section class="container w-75 bg-info py-3" id="service">
+	         <div class="text-center text-white service">
+			    <h1>our services</h1>
+			 </div>
+		     <div class="row p-5" id="row">
+			    <div class="col-md-3 text-center mx-4 rounded border py-4">
+				   <span class="fa fa-cutlery"></span>
+				   <h4>delecious food</h4>
+				   <p>we offer a delecious food lorem ipsum we offer we lorem ipsum food
+				   food lorem ipsum delecious food ipsum we offer  delecious ipsum delecious food
+			       </p>
+				</div>
+				<div class="col-md-3 text-white text-center mx-4 rounded border py-4">
+				   <span class="fa fa-leaf"></span>
+				   <h4>Healthy food</h4>
+				   <p>our food is healthy  we offer a delecious food lorem ipsum delecious
+				   our food is healthywe offer a delecious food  lorem ipsum delecious ipsum delecious food
+			       </p>
+				</div>
+				<div class="col-md-3 text-white text-center mx-4 rounded border py-4">
+				   <span class="fa fa-globe"></span>
+				   <h4>Food delevery</h4>
+				   <p>our food is healthywe offer a delecious food  lorem ipsum delecious
+				   delecious food lorem ipsum we offer we lorem ipsum food lorem ipsum delecious food
+			       </p>
+				</div>
+			 </div>
+	 </section>
+	 <!-- the hidden service section will replace the first one in small devices-->
+	 <section class="container w-75 bg-info py-3 service">
+	 
+	         <div class="text-center text-white service">
+			    <h1>our services</h1>
+			 </div>
+		     <div class="row p-5" id="row">
+			    <div class="col-md-3 text-white text-center mx-4 my-2 rounded border py-4">
+				   <span class="fa fa-cutlery"></span>
+				   <h4>delecious food</h4>
+				   <p>we offer a delecious food lorem ipsum we offer we lorem ipsum food
+				   food lorem ipsum delecious food ipsum we offer  delecious ipsum delecious food
+			       </p>
+				</div>
+				<div class="col-md-3 text-white text-center mx-4 my-2 rounded border py-4">
+				   <span class="fa fa-leaf"></span>
+				   <h4>Healthy food</h4>
+				   <p>our food is healthy  we offer a delecious food lorem ipsum delecious
+				   our food is healthywe offer a delecious food  lorem ipsum delecious ipsum delecious food
+			       </p>
+				</div>
+				<div class="col-md-3 text-white text-center mx-4 my-2 rounded border py-4">
+				   <span class="fa fa-globe"></span>
+				   <h4>Food delevery</h4>
+				   <p>our food is healthywe offer a delecious food  lorem ipsum delecious
+				   delecious food lorem ipsum we offer we lorem ipsum food lorem ipsum delecious food
+			       </p>
+				</div>
+			 </div>
+	 </section>
+	 <!-- the restaurant place -->
+	 <div class="container w-75 bg-white py-5">
+	    <h1 class="text-center">Amazing place</h1>
+		<div class="text-center py-5 w-100 mx-auto before-footer">
+		   <div class="inner text-white text-center w-100 py-4 px-2">
+		       <p>dicouver our restaurant you will enjoy it and the place where it situates</p>
+		   </div>
+		</div>
+	 </div>
+	 <!-- the contact form -->
+	 <div class="container contact-form w-75 py-5 bg-white">
+	     <div class="w-75 mx-auto py-3" id="left">
+		    <h2 class="text-center text-danger py-2">Get our news letter</h2>
+		    <label for="user" class="text-left my-2">full name:</label>
+	        <input type="text" class="form-control" id="user">
+		    <label for="email" class="text-left">email:</label>
+	        <input type="text" class="form-control" id="email">
+		    <button type="submit" class="btn btn-block btn-danger my-4">submit</button>
+		 </div>
+	 </div>
+	 <footer class="container bg-light text-light w-75 py-3">
+	       <ul class="nav flex py-1 justify-content-center">
+		       <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+		       <li class="nav-item"><a href="#" class="nav-link">gallery</a></li>
+		       <li class="nav-item"><a href="#" class="nav-link">videos</a></li>
+			    <li class="nav-item"><a href="#" class="nav-link">contact us</a></li>
+		   </ul>
+		   <hr>
+		   <p class="text-center p-2">All copyrights are reserved &#169;</p>
+	 </footer>
+	 <script src="main.js"></script>
+   </body>
+   
+</html>

@@ -1,0 +1,239 @@
+        /* style the body element*/
+		body {
+		    background: linear-gradient(90deg, #CCC, #DDD);
+			height: 100%;
+			width: 100%;
+		}
+		* {box-sizing: border-box;}
+		/*the navbar style*/
+		 .navbar {
+			 border-bottom: 1px solid #F1F1F1 !important;
+		 }
+		 .navbar  a.nav-link {
+		   color: #444 !important;
+		   font-family: tahoma !important;
+		   text-transform: capitalize !important;
+		 }
+		 .navbar  a.active {
+		   color: #f2c40d !important;
+		 }
+		 .navbar  a.nav-link:hover {
+		   color: #000 !important;
+		 }
+		 .navbar a.navbar-brand {
+		 font-size: 23px !important;
+		 }
+		 .second  {
+		   position: relative;
+		   padding: 0;
+		 }
+		 .slide {
+		   position: relative;
+		   padding: 0;
+		 }
+		 .slide img {
+		   width: 100% !important;
+		   min-height: 600px;
+		 }
+		 /*style for carousel button*/
+		 .slide .carousel-control-next {
+		   position: absolute !important;
+		   background-color: white !important;
+		   align-items: flex-start !important;
+		   bottom: 75%;
+		   height: 20px;
+		   width: 20px;
+		   padding: 12px 20px !important;
+		 }
+		 .slide .right {
+		   position: absolute;
+		   bottom: 0;
+		   left: 0;
+		   padding: 12px 20px;
+		 }
+		 .second .left {
+		   position: absolute;
+		   bottom: 0;
+		   right: 0;
+		   padding: 12px 20px;
+		 }
+		 .second p {
+			 font-family: 'Roboto';
+		 }
+		 .container {
+		   padding-bottom: 0 !important;
+		 }
+		 .second .fa-instagram:hover {
+		   color: #F58529 !important;
+		 }
+		 h2 {
+		   font-family: 'Roboto';
+		   font-size: 45px;
+		 }
+		 .full-container {
+		   position: fixed;
+		   top: 0;
+		   left: 0;
+		   background-color: rgba(0, 0, 0, 0.7);
+		   height: 0;
+		   width: 100%;
+		   z-index: 2;
+		   overflow: hidden;
+		   transition: height 0.5s;
+		 }
+		 .search {
+		   position: absolute;
+		   opacity: 0;
+		   width: 60%;
+		   top: 50%;
+		   left: 50%;
+		   transform: translate(-50%, -50%);
+		   transition: opacity 1.2s;
+		 }
+		 .fa-remove {
+		   position: absolute;
+		   top: 0;
+		   right: 0;
+		   font-size: 25px;
+		   font-weight: bold;
+		   padding: 15px;
+		   text-align: center;
+		   cursor: pointer;
+		 }
+		 .container.bg-info {
+		   position: relative;
+		 }
+		 .fa-search{
+		   position: absolute;
+		   top: 18px;
+		   right: 33px;
+		   padding: 3px 6px;
+		   background-color: rgba(255, 255, 255, 0.9);
+		   cursor: pointer;
+		   font-size: 20px;
+		   transition: background 0.8s;
+		 }
+		 .fa-search:hover {
+		   background-color: #00aaff;
+		   color: #FFF !important;
+		 }
+		 /* styling the item container*/
+		 .item-container .item:hover {
+			 box-shadow: 0 0 20px #DDD;
+			 border-radius: 6px;
+			 cursor: pointer;
+		 }
+		 /* style for the service container */
+		 section#service {
+		   position: relative !important;
+		   min-height: 450px;
+		   overflow: hidden;
+		 }
+		 section#service .row {
+		   position: absolute;
+		   width: 100%;
+		   text-align: center;
+		   margin: 0 auto;
+		   bottom: -200px;
+		   opacity: 0;
+		   transition: all 1.6s;
+		 }
+		 section#service .row .col-md-3:hover {
+		   background-color: white !important;
+		   color: #000 !important;
+		   cursor: pointer;
+		 }
+		 section.service .row .col-md-3:hover {
+		   background-color: white !important;
+		   color: #000 !important;
+		   cursor: pointer;
+		 }
+		 section.service .row .col-md-3 {
+		   color: white !important;
+           cursor: pointer;
+		   transition: background 0.5s;
+		 }
+		 section#service .row .col-md-3 {
+		   color: white !important;
+           cursor: pointer;
+		   transition: background 0.5s;
+		 }
+		 section#service .service {
+		   position: absolute;
+		   width: 100%;
+		   left: 0;
+		   top: 15px;
+		   opacity: 0;
+		   transition: all 1.6s;
+		 }
+		 /*styling for icons in service container*/
+		 .fa-cutlery, .fa-leaf, .fa-globe {
+		   font-size: 50px;
+		   color: purple !important;
+		   padding: 5px;
+		   margin-bottom: 15px !important;
+		 }
+		 /*style for the container show the restaurant place*/
+		 .before-footer {
+		   background-image: url("images/rest9.jpg");
+		   background-position: center;
+		   background-attachment: fixed;
+		   background-size: cover;
+		   min-height: 600px;
+		   position: relative;
+		 }
+		 .before-footer .inner {
+			 position: absolute;
+			 left: 0;
+             bottom: 0;	
+             background-color: rgba(0, 0, 0, 0.6);			 
+		 }
+		 label {
+			 text-transform: capitalize;
+		 }
+		 .container.contact-form {
+			 position: relative;
+			 min-height: 400px;
+			 overflow: hidden;
+		 }
+		 .container.contact-form div {
+			 position: absolute;
+			 left: -760px;
+			 transition: all 0.8s ease;
+		 }
+		 section.service {
+			 display: none;
+		 }
+		 /* style the footer container */
+		 footer {
+			 background: linear-gradient(135deg, #3385ff, #7785ff);
+		 }
+		 footer ul.flex a {
+			 color: #FFF !important;
+			 padding: 5px 20px !important;
+			 margin: 0 5px;
+			 transition: border 0.5s ease;
+		 }
+		 footer ul.flex a:hover {
+			 border-bottom: 2px solid #FFF;
+		 }
+		 /*the media query rules*/
+		 @media screen and (max-width: 1024px) {
+			section#service {
+			   display: none;
+			   overflow: auto;
+			   min-height: 550px;
+			}
+			section.service {
+				display: block;
+			}
+		 }
+		 @media screen and (max-width: 1250px) {
+			section#service {
+				min-height: 580px;
+			}
+		 }
+		 @media screen and (max-width: 600px) {
+		    h2 {font-size: 2.3rem;}
+		 }
+	
